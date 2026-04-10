@@ -5,7 +5,7 @@
 | 2       | delete.cpp       |
 | 3       | insert.c, sort.c |
 | 4       | print.c          |
-| 5       |                  |
+| 5       | pack_reorder.c   |
 | 6       | insert_sort.c    |
 | 7       | find.c           |
 | 8       |                  |
