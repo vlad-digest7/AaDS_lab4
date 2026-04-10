@@ -8,5 +8,5 @@
 | 5       | pack_reorder.c   |
 | 6       | insert_sort.c    |
 | 7       | find.c           |
-| 8       |                  |
+| 8       | pack.c           |
 | 9       | restore.c        |
