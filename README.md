@@ -9,4 +9,4 @@
 | 6       | insert_sort.c    |
 | 7       | find.c           |
 | 8       |                  |
-| 9       |                  |
+| 9       | restore.c        |
