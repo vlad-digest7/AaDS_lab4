@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
-#pragma pack(push, 1)
 struct Header {
     int activeCount;      // количество активных элементов
     int deletedCount;     // количество удалённых
@@ -15,7 +14,6 @@ struct Element {
     char name[20];        // наименование (строка, 20 байт)
     int next;             // указатель на следующий элемент
 };
-#pragma pack(pop)  // Восстанавливаем выравнивание
 
 
 

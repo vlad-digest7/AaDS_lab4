@@ -2,23 +2,19 @@
 #include <string.h>
 #include <stdlib.h>
 
-#pragma pack(push, 1)
-
-struct Header{
+typedef struct{
     int active_count;
     int deleted_count;
     int first_active;
     int first_deleted;
     int last_deleted;
-};
+} Header;
 
-struct  Record{
+typedef struct {
     unsigned char is_del;
     char name[20];
     int next;
-};
-
-#pragma pack(pop)
+} Record;
 
 // Функция создания тестового файла с 5 записями
 void create_test_file(const char *filename) {
